@@ -9,7 +9,7 @@ compartment. Use it as the first step when onboarding a new team or environment.
 
 ```hcl
 module "baseline" {
-  source = "github.com/cybercapybara/terraform-oci-baseline"
+  source = "github.com/moveeeax/terraform-oci-baseline"
 
   tenancy_id            = var.tenancy_id
   parent_compartment_id = var.tenancy_id
